@@ -40,11 +40,12 @@ To run the Task Manager application locally, follow these steps:
       ```
 
     - Create a `.env` file in the server directory and add the following environment variables:
+    - (note* : providing mongo URI only for submission purpose later I shall disable it)
 
       ```plaintext
       NODE_ENV=development
       PORT=8000
-      MONGO_URI="mongodb+srv://your-username:your-password@cluster0.g4kay6l.mongodb.net/taskmanager?retryWrites=true&w=majority&appName=Cluster0"
+      MONGO_URI="mongodb+srv://joshimeet479:IMMETj5WOZzOYr55@cluster0.g4kay6l.mongodb.net/taskmanager?retryWrites=true&w=majority&appName=Cluster0"
       ```
 
     - Start the server:
